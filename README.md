@@ -4,7 +4,7 @@
 
 > This is part of Academy's [technical curriculum for **The Mark**](https://github.com/WeAreAcademy/curriculum-mark). All parts of that curriculum, including this project, are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
 
-This project is all about comparing a TS programme to a JS programme, using [previous work on FizzBuzz in JavaScript as inspiration](https://github.com/WeAreAcademy/mark-fundamentals-proj--js-fizzbuzz).
+This project is all about familiarising yourself with the filter function,practicing how you pass functions from place to place and reinforcing your udnerstanding of the different ways to express functions.
 
 ## Learning Outcomes
 
@@ -12,7 +12,7 @@ This project is all about comparing a TS programme to a JS programme, using [pre
 - Pass an arrow function into filter
 - Pass an anonymous arrow function into filter
 
-## Exercise 0a: Vanilla `.filter` with function expressions
+## Exercise 1: `.filter` with function expressions
 
 > 🎯 **Success criteria:** Tests passing for all the exercises in `src/0-exercises`, using helper function expressions
 
@@ -25,12 +25,7 @@ Use these to help you to write the code needed to pass the tests in `src/0-exerc
 1. Defining a separate helper function using a function expression
 2. Passing that function expression to the array's `.filter` method
 
-Remember, you can use [Jest's options](https://jestjs.io/docs/en/cli) to [pass through a matcher/'regex'](https://jestjs.io/docs/en/cli#jest-regexfortestfiles) for specific files/folders of tests, for example:
-
-- `yarn test even-numbers` will run all tests that match the `even-numbers` path (i.e. `src/0-examples/1-even-numbers.test.ts`)
-- `yarn test 0-exercises` will run all tests that match the `0-exercises` path (i.e. all `.test.ts` files which have the `src/0-exercises` directory in their path)
-
-## Exercise 0b: Vanilla `.filter` with separate arrow functions
+## Exercise 2: `.filter` with separate arrow functions
 
 > 🎯 **Success criteria:** Tests passing for all the exercises in `src/0-exercises`, using helper arrow functions
 
@@ -40,7 +35,7 @@ Comment out the function expressions and de-comment the arrow functions - the te
 
 See if you can refactor the code in `0-exercises` to use the arrow function syntax.
 
-## Exercise 0c: Vanilla `.filter` with explicitly typed anonymous arrow function callbacks
+## Exercise 3: `.filter` with explicitly typed anonymous arrow function callbacks
 
 > 🎯 **Success criteria:** Tests passing for all the exercises in `src/0-exercises`, using anonymous arrow functions
 
@@ -74,7 +69,7 @@ The relevant tests should still all pass. (Instead of passing in a reference to 
 
 See if you can refactor the code in `0-exercises` to use this in-line arrow function expression syntax.
 
-## Exercise 0d: Vanilla `.filter` with implicitly typed anonymous arrow function callbacks
+## Exercise 4: `.filter` with implicitly typed anonymous arrow function callbacks
 
 > 🎯 **Success criteria:** Tests passing for all the exercises in `src/0-exercises`, using anonymous arrow functions
 
