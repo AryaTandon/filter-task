@@ -1,7 +1,20 @@
-function hasHighGrades() {
-    // your code here
+"use strict"
+
+interface Grades {
+    name: string;
+    grade: string;
 }
 
-function getHighAchievers() {}
+// const hasHighGrades = (student: Grades): boolean => student.grade == "A" || student.grade == "A*";
 
-export { hasHighGrades, getHighAchievers};
+// const getHighAchievers = (students: Grades[]): Grades[] => students.filter(hasHighGrades);
+
+// const getHighAchievers = (students: Grades[]): Grades[] => students.filter((student: Grades): boolean =>
+//     student.grade == "A" || student.grade == "A*");
+
+const getHighAchievers = (students: Grades[]): Grades[] => students.filter((student) =>
+    student.grade == "A" || student.grade == "A*");
+
+// export { hasHighGrades, getHighAchievers};
+
+export { getHighAchievers };

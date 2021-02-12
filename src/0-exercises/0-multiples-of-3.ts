@@ -1,7 +1,9 @@
-function isMultipleOfThree() {
-    // your code here
+function getMultiplesOfThree(multiple: number[]): number[] {
+    return multiple.filter(isMultipleOfThree);
 }
 
-function getMultiplesOfThree() {}
+function isMultipleOfThree(n: number): boolean {
+    return n % 3 == 0;
+}
 
 export { isMultipleOfThree, getMultiplesOfThree };
